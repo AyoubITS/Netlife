@@ -1,0 +1,218 @@
+#content form label
+{
+    display:block;
+    float:left;
+    width:200px;
+    left:150px;
+}
+
+#content .error
+{
+    color:red;
+    border-radius: 5px;
+    -webkit-webkit: border radius 5;
+    -moz-webkit: border radius 5;
+    margin:2px auto;
+    width:300px;
+    background-color: #CCC;
+}
+
+body{
+	margin:0;
+	background-color:#E0E3E5;
+	background-size:cover;
+}
+
+table{
+	border: thin solid black;
+	border-radius:10px;
+	background-color: lightcyan;
+}
+
+h1{
+	color:black;
+	font-family:arial;
+	font-size:30pt;
+}
+
+h2{
+	font-family:arial;
+	font-size:22pt;
+	font-style:italic;
+}
+h3{
+	font-family:arial;
+	font-size:15pt;
+	font-style:italic;
+	margin-top: 5%;
+}
+
+h4{
+	font-family:arial;
+	font-size:12pt;
+}
+
+th{
+	font-family:arial black;
+}
+p{
+	font-family:arial;
+}
+
+img.imgTD{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav.menunavigation {
+	background-color:#261867;
+	position: fixed;
+	width: 100%;
+	top: 0%;
+}
+
+nav.menunavigation ul.boutonNavigation li{
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	padding: 1%;
+	border-left: 2px solid black;
+	font-size: 25px;
+}
+
+nav.menunavigation ul.boutonNavigation li:first-child{
+	color: black;
+	background-color:#261867;
+	padding: 1%;
+	text-align: center;
+	border-left:none;
+}
+nav.menunavigation ul.boutonNavigation li:hover {
+	background-color: #261867;
+}
+
+nav.menunavigation ul.boutonNavigation li:hover a{
+	color: white;
+}
+
+nav.menunavigation ul.boutonNavigation li a{
+	color: black;
+	text-decoration: none; 
+	font-family: arial black;
+	font-style:italic;
+}
+	
+header{
+	margin-bottom: 10%;
+}
+
+section#Presentation{
+	float:left;
+	margin-left: 1.5%; 
+    margin-right: 1.5%;
+    margin-top: 1.8%;
+    margin-bottom: 5%;  
+    background-color: #f1f4f7;
+}
+section#Presentation p{
+	margin-left: 1%;
+}
+section#Contenu{
+	display: inline-block;
+	width: 96%;
+	margin-left: 1.5%; 
+    margin-right: 1.5%;
+    margin-top: 0.5%;  
+    background-color: #f1f4f7;
+}
+section#Contenu section{
+	display: inline-block;
+	width: 45%;
+	margin-left: 1.5%; 
+    margin-right: 1.5%;
+    margin-top: 0.5%; 
+    margin-bottom: 1%; 
+    background-color: #f1f4f7;
+}
+section#Contenu section#TD2{
+	vertical-align: top;
+}
+section#Contenu p{
+	margin-left: 2%;
+}
+section#Contenu section#TD3{
+	vertical-align: top;
+}
+section a{
+	font-family: arial black;
+	font-size: 15px;
+}
+section a:hover{
+	font-family: arial black;
+	font-size: 15px;
+	color: #001664
+}
+
+section.ImgConstruction{
+	margin-left: 4%;
+	margin-right: 4%;
+	background-color: white;
+}
+section.textRetour{
+	text-align: center;
+}
+
+img.imgTD{
+	max-width: 100%;
+	height: auto;
+}
+
+section.Footer section{
+	display: inline-block;
+	width: 30%;
+	margin-left: 20px; 
+    margin-right: 12px;
+    margin-top: 15px;
+}
+section.Footer section#text{
+	vertical-align: top;
+}
+section.Footer p{
+	margin-left: 10px;
+}
+section.Footer section#Lien{
+	text-align: center;
+	font-family: arial black;
+	margin-top: 40px;
+}
+section.Footer section#Lien a{
+	color: white;
+	text-decoration: none;
+}
+section.Footer section#Lien a:hover{
+	color: grey;
+	text-decoration: none;
+}
+section.Footer section#imageFooter{
+	vertical-align: top;
+}
+footer{
+	position:absolute;
+	bottom:0;
+	font-family:arial;
+	font-size:10pt;
+	background-color:#261867;
+	color: white;
+	margin-top: 10px;
+	width:100%;
+}
+footer img{
+	position:absolute;
+	bottom:0;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
